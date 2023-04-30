@@ -1,17 +1,12 @@
-// package prac_2;
+package oops.Inh_2;
 
 public class main {
+    
     public static void main(String[] args) {
-        Time s1=new Time(10,10,00);
-        Time s2=new Time(17,05,00);
-         s1.addition(s1,s2);
-         s1.subtraction(s1,s2);
-        attendance s3=new attendance (14,2,2022,s1,s2);
-         s3.display();
-        Employee s4=new Employee(2, 20000, "Samrat", "SDE");
-        s4.display();
-        s4.entry();
-        s4.working_hours();
-      
-      }
+        pubs a[]=new pubs[2];
+        a[0]=new books("Book1", 10000, 2000020);
+        a[1]=new tape("Music1", 3000, 220,1000000);
+        a[0].setdata();
+        a[1].setdata();
+    }
 }
