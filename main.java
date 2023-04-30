@@ -1,12 +1,11 @@
-package oops.Inh_2;
+package oops.Vector.Inheritance;
 
 public class main {
-    
     public static void main(String[] args) {
-        pubs a[]=new pubs[2];
-        a[0]=new books("Book1", 10000, 2000020);
-        a[1]=new tape("Music1", 3000, 220,1000000);
-        a[0].setdata();
-        a[1].setdata();
+        fig a[]=new fig[2];
+        a[0]= new rectangle(1,2);
+        a[1]=new tri(1,2);
+        a[0].area();
+        a[1].area();
     }
 }
