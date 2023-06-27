@@ -1,14 +1,10 @@
-package prac_5;
+package prac_6;
 
 public class main {
     public static void main(String[] args) {
-        try{
-            Student s1=new Student();
-            s1.check("Samrat", 10, "BE20CSU110", "b@1236");
-        }
-        catch(exception e){
-            
-        }
-        
+        product s1=new product(1,"abcd",6,100);
+        s1.write_in_file();
+        product s2=new product(1,"abcd",6,100);
+        s2.write_in_file();
     }
 }
