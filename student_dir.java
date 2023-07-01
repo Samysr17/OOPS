@@ -31,15 +31,16 @@ public class student_dir implements Comparable{
             System.out.println("Name "+itr.Name);
             System.out.println("roll "+itr.roll);
             System.out.println("Semester "+itr.Semester);
-            System.out.println("Contact Number "+Contact_no);
-            System.out.println("City "+City);
+             System.out.println("City "+itr.City);
+            System.out.println("Contact Number "+itr.Contact_no);
+           
         }
     }
     void display_cities(String req){
         System.out.println("City  "+req);
       for(student_dir itr:t){
         if(itr.City==req){
-            System.out.println("Name :"+Name);
+            System.out.println("Name :"+itr.Name);
         }
       }
     }
